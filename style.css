@@ -37,3 +37,13 @@ img{
 #info{
     background: linear-gradient(#78ffd6,#0ED2F7);
 }
+.uline{
+    list-style: none;
+    top:0px;
+    right:40px;
+    position:fixed;
+    
+}
+.link1{
+    float:left;
+}
