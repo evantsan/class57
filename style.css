@@ -1,64 +1,28 @@
-.line {
-    width: 300px;
-    height: 20px;
-    background-color: black;
-}
-
-h1 {
-    font-size: 50px;
-    font-family: 'JetBrains Mono', monospace;
-}
-
-p {
-    max-width: 500px;
-    text-align: justify;
-    font-size: 18px;
-    line-height: normal;
-    font-family: 'Orbitron', sans-serif;
-}
-
-h2 {
-    font-family: 'Grenze Gotisch', cursive;
-}
-
-#welcome {
-    background: linear-gradient(#a8ff78, #78ffd6);
-    height: 1000px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    top: 0;
-    z-index: 1;
+body {
+    background: rgb(0, 255, 46);
+    background: linear-gradient(360deg, rgba(0, 255, 46, 1) 0%, rgba(0, 245, 255, 1) 50%, rgba(248, 0, 255, 1) 100%);
+    text-align: center;
+    background-repeat: no-repeat;
 }
 
 img {
-    margin-top: 100px;
-    border: 5px ridge black;
-    border-radius: 30px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
 
-#info {
-    background: linear-gradient(#78ffd6, #0ED2F7);
-}
-
-.uline {
-    list-style: none;
-    top: 0px;
-    right: 40px;
-    position: fixed;
-    z-index: 100;
-}
-
-.link1 {
-    float: left;
-    padding: 10px;
-    font-size: 20px;
-    font-family: 'Electrolize', sans-serif;
-
-}
-
-.link1:hover {
-    cursor: pointer;
+hr {
     background-color: black;
-    color: white;
+    height: 10px;
+    width: 400px;
+
+}
+
+h1 {
+    font-family: 'Electrolize', sans-serif;
+}
+
+p {
+    font-family: 'Orbitron', sans-serif;
+    max-width: 400px;
 }
